@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  background-color: rgb(4, 4, 34);
+  text-align: center;
+}
+
+.wrapper {
+  /* border: 1px solid white; */
+  width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.text {
+  margin-bottom: 20px;
+}
+
+.box-number {
+  background-color: white;
+  color: black;
+  width: 60px;
+  height: 50px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.message {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.box {
+  /* border: 1px solid white; */
+  width: 300px;
+  margin: 0px auto;
+}
+
+.input-number {
+  display: block;
+  width: 100%;
+  height: 80px;
+  border: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
+.guess {
+  display: block;
+  width: 100%;
+  height: 60px;
+  border: none;
+  font-size: 30px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: rgb(30, 48, 30);
+  cursor: pointer;
+}
+
+.guess:hover {
+  opacity: 0.8;
+  transition: ease 0.15s;
+}
+
+.tambahan {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.reset {
+  margin-top: 10px;
+  display: block;
+  width: 49%;
+  height: 50px;
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: rgb(30, 56, 30);
+  cursor: pointer;
+}
+
+.reset:hover {
+  opacity: 0.8;
+  transition: ease 0.15s;
+}
